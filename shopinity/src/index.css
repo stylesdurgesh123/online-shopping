@@ -1,0 +1,53 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #f5f0f0;
+}
+
+
+::-webkit-scrollbar{width: 8px !important; height: 8px !important;}
+::-webkit-scrollbar-thumb{background-color: #ff5252;}
+::-webkit-scrollbar-track{background-color: #fff;}
+
+.MuiTabs-indicator{background-color:#ff5252 !important;}
+.MuiTab-textColorPrimary.Mui-selected{color: #ff5252 !important;}
+
+
+.ItemViewAction button.active svg{color: #ff5252 !important; opacity:1;}
+ .Mui-selected.MuiPaginationItem-page{background-color: #ff5252 !important; color: white !important;}  
+
+ .cartPanel .MuiPaper-root{width: 400px;}
+ .addressPanel .MuiPaper-root{width: 500px;}
+
+ #size-menu .MuiButtonBase-root{font-size: 12px !important;}
+
+.otpBox input{border: 1px solid rgba(0,0,0,0.3) !important; outline: none !important;
+border-radius: 4px;}
+.otpBox input:focus{border: 1px solid rgba(0,0,0,0.7) !important;}
+.otpBox .cobtainer{height: 90vh; display: flex;}
+
+#account-menu .MuiPaper-root{width: 200px !important;}
+
+.myAccountTabs li a{position: relative; display: block;}
+.myAccountTabs li a:before{content: ''; width: 3px; height: 50%; position: absolute; top: 50%; left: 0px;
+background-color: #ff5252; transition: all 0.3s ease-in-out; opacity: 0;}
+.myAccountTabs li a.active::before{height: 100%; opacity: 1; top: 0px;}
+.myAccountTabs li a.active button svg{color: #ff5252 !important; opacity: 1 !important;}
+
+button .MuiCircularProgress-root{width: 30px !important; height: 30px !important;}
+.MuiDialog-paper{width: 700px !important; max-width: 700px !important;}
+
+.link:hover,.Mui-checked{color: #ff5252 !important;}
+
+/*.btn-org{background: #ff5252 !important; color: #fff !important; font-weight: 500; font-size: 2px !important;}*/

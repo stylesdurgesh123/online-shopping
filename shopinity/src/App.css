@@ -1,0 +1,33 @@
+.swiper-button-next,
+    .swiper-button-prev{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border-radius: 100%;
+        height: 45px;
+        width: 45px;
+        min-width: 45px;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after{
+      font-size: 20px !important;
+      color: #000;
+    }
+
+
+    .CardSlider{overflow: hidden;}
+    .CardSlider .swiper-button-prev,.CardSlider .swiper-button-next{height: 30px; width: 30px; min-width: 30px;}
+    .CardSlider .swiper-button-prev:after,.CardSlider .swiper-button-next:after{font-size: 16px !important;}
+ 
+    .CardSlider .swiper-button-prev{left:0px !important;}
+    .CardSlider .swiper-button-next{right:0px !important;}
+
+    .CardSlider .swiper-button-prev:hover{background-color: #ff5252;}
+    .CardSlider .swiper-button-next:hover{background-color: #ff5252;}
+
+    .swiper-button-next{background-color: #ff5252;}
+    .swiper-button-next::after{color: white;}
+    .swiper-button-prev{background-color: #ff5252;}
+    .swiper-button-prev::after{color: white;}

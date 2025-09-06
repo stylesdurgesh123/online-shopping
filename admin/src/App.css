@@ -1,0 +1,49 @@
+
+body{ font-family: "Raleway", sans-serif; background: #f1f1f1;}
+.MuiBadge-badge{background-color: #ff5252 !important;}
+
+.ReactCollapse--collapse {
+    transition: height 300ms;
+  }
+
+  .btn-blue{background:#3872fa !important; color: #fff !important; padding: 8px 20px !important;}
+  .btn-blue:hover{background: #3067e5 !;}
+
+  th.MuiTableCell-root{@apply bg-[#f1f1f1]}
+
+  a.active button{background: rgba(0,0,0,0.8) !important; color: white !important;}
+
+  .MuiAppBar-colorPrimary{background-color: #6e6e6e !important;}
+
+  input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.MuiSelect-select{background: #fff !important;};
+
+.zoomProductSliderThumbs.space .swiper-wrapper{padding-top: 30px !important;}
+.zoomProductSliderThumbs .swiper-wrapper{padding-top: 38px !important;}
+.zoomProductSliderThumbs .swiper-button-next{bottom: 0px !important; right: inherit !important;}
+.zoomProductSliderThumbs .swiper-button-next:after{transform: rotate(90deg);}
+.zoomProductSliderThumbs .swiper-button-prev{top: 20px !important; left: 0px !important; width: 100%; height: 500px !important;}
+.zoomProductSliderThumbs .swiper-button-prev:after{transform: rotate(90deg);}
+
+.zoomProductSliderThumbs .swiper-wrapper {
+  padding-top: 10px !important;
+}
+.zoomProductSliderThumbs .swiper-slide {
+  height: auto !important;
+}
+.zoomProductSliderMain .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentRight{padding-top: 80px;}
+
+.rsw-editor{min-height: 250px!important; background-color: #fff;}
