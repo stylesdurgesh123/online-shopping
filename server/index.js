@@ -33,7 +33,12 @@ app.use(helmet({
   contentSecurityPolicy: false, 
 }));
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001'],
+  origin: [
+    'http://localhost:3000', 
+    'http://localhost:3001',
+    'https://online-shopping-woad.vercel.app',
+    'https://online-shopping-zbxa.vercel.app'
+  ],
   credentials: true
 }));
 
