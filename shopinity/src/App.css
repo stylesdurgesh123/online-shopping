@@ -27,7 +27,7 @@
     .CardSlider .swiper-button-prev:hover{background-color: #ff5252;}
     .CardSlider .swiper-button-next:hover{background-color: #ff5252;}
 
-    .swiper-button-next{background-color: #ff5252;}
-    .swiper-button-next::after{color: white;}
-    .swiper-button-prev{background-color: #ff5252;}
-    .swiper-button-prev::after{color: white;}
+    .swiper-button-next{background-color: white;}
+    .swiper-button-next::after{color: gray;}
+    .swiper-button-prev{background-color: white;}
+    .swiper-button-prev::after{color: gray;}

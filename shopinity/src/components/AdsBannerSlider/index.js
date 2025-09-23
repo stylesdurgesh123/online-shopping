@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Navigation, FreeMode, Mousewheel } from 'swiper/modules';
+import { Navigation, FreeMode, Mousewheel, Autoplay } from 'swiper/modules';
 import BannerBox from '../Bannerbox';
 import 'swiper/css';
 import 'swiper/css/free-mode';
@@ -19,7 +19,11 @@ const context = useContext(MyContext);
         slidesPerView={props.items}
         spaceBetween={10}
         navigation={context?.windowWidth < 992 ? false : true}
-        modules={[Navigation, FreeMode, Mousewheel]}
+        autoplay={{
+        delay: 2000,
+        disableOnInteraction: false,
+      }} 
+        modules={[Navigation, FreeMode, Mousewheel, Autoplay]}
         freeMode={true}
         mousewheel={{
         forceToAxis: true,  // only horizontal axis on sliding
@@ -34,11 +38,11 @@ const context = useContext(MyContext);
         spaceBetween: 5,
         },
         750: {
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 5,
         },
         1100: {
-        slidesPerView: 4,
+        slidesPerView: 1,
         spaceBetween: 5,
           }, 
         }}
