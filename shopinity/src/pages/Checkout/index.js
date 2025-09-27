@@ -49,7 +49,6 @@ const editAddress=(id)=>{
  context?.setAddressMode('edit');
  context?.setAddressId(id);
 } 
-
 const handleChange=(e,index)=>{
  if(e.target.checked){
  setIsChecked(index);
