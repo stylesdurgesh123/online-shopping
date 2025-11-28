@@ -68,7 +68,7 @@ const handleClose = () => {
 
   return (
     <header className='bg-white sticky -top-[47px] z-[100] shadow-custom'>
-      <div className='top-script py-2 border-t-[1px] border-b-[1px] border-solid border-black/10'>
+  {/*  <div className='top-script py-2 border-t-[1px] border-b-[1px] border-solid border-black/10'>
        <div className='w-[95%] m-auto'>
         <div className='flex items-center justify-between'>
          <div className='col1 w-[50%] hidden lg:block'>
@@ -93,8 +93,12 @@ const handleClose = () => {
          </div>
         </div>
        </div>
-       </div>
+       </div>*/}
 
+ <div className="bg-[#ff5252] text-white text-center py-1 lg:py-2 text-[12px] lg:text-[14px] font-semibold">
+        Get up to 50% off on new season styles - limited time only!
+      </div>
+    
     <div className='py-0 border-b-[1px] border-solid border-black/10'>
       <div className='w-[95%] m-auto flex items-center justify-between'>
       {
